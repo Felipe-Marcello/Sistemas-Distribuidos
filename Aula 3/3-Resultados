@@ -1,0 +1,12 @@
+SERVIDOR
+PS C:\Users\felip\Desktop\aula3_udp>  & 'C:\Users\felip\AppData\Local\Programs\Python\Python311\python.exe' 'c:\Users\felip\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\libs\debugpy\launcher' '56194' '--' 'C:\Users\felip\Desktop\aula3_udp\servidor_udp.py' 
+Servidor UDP aguardando mensagens...
+Cliente:  ('192.168.15.8', 57583)
+Mensagem:  Olá estou em outro computador
+
+CLIENTE
+PS C:\Users\felip\Desktop\aula3_udp>  & 'C:\Users\felip\AppData\Local\Programs\Python\Python311\python.exe' 'c:\Users\felip\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\libs\debugpy\launcher' '62757' '--' 'c:\Users\felip\Desktop\aula3_udp\cliente_udp.py' 
+Digite sua mensagem:Olá estou em outro computador
+Resposta do servidor:
+Servidor recebeu: Olá estou em outro computador
+PS C:\Users\felip\Desktop\aula3_udp> 
